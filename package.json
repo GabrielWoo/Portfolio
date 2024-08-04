@@ -1,7 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://gabrielwoo.github.io/Portfolio",
+  "scripts": {
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
