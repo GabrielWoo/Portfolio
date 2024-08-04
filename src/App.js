@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Timeline from "./components/Timeline/Timeline";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
@@ -38,6 +39,7 @@ function App() {
           <Route path="Portfolio/" element={<Home />} />
                   <Route path="Portfolio/project" element={<Projects />} />
                   <Route path="Portfolio/about" element={<About />} />
+                  <Route path="Portfolio/timeline" element={<Timeline />} />
                   <Route path="Portfolio/resume" element={<Resume />} />
                   <Route path="*" element={<Navigate to="Portfolio/"/>} />
         </Routes>

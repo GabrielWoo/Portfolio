@@ -8,6 +8,7 @@ import {
     AiOutlineHome,
     AiOutlineFundProjectionScreen,
     AiOutlineUser,
+    AiFillSignal
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -81,6 +82,20 @@ function NavBar() {
                                     style={{ marginBottom: "2px" }}
                                 />{" "}
                                 Projects
+                            </Nav.Link>
+                        </Nav.Item>
+
+                        {/*Work Experience */}
+                        <Nav.Item>
+                            <Nav.Link
+                                as={Link}
+                                to="Portfolio/timeline"
+                                onClick={() => updateExpanded(false)}
+                            >
+                                <AiFillSignal  
+                                    style={{ marginBottom: "2px" }}
+                                />{" "}
+                                Timeline
                             </Nav.Link>
                         </Nav.Item>
 
