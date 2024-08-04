@@ -36,7 +36,7 @@ function NavBar() {
             <Container>
 
                 {/*Logo */}
-                <Navbar.Brand href="/" className="d-flex">
+                <Navbar.Brand className="d-flex">
                     GW
                 </Navbar.Brand>
                 <Navbar.Toggle
