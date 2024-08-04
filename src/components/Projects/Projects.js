@@ -16,7 +16,7 @@ function Projects() {
                   This is a <span className="purple">work in progress</span>. Check back again.
               </p>
 
-              <img src={ConstructionImg} alt="In-Progress" className="img-fluid" width="500" height="600" />
+              <img src={ConstructionImg} alt="In-Progress" className="img-fluid" width="600" height="800" />
         
       </Container>
     </Container>
