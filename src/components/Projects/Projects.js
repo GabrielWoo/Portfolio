@@ -1,7 +1,9 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import Particle from "../Particle";
 import ConstructionImg from "../../Assets/inProgress.jpg";
+import GenZ from "../../Assets/GenZ.png"
+import ProjectCard from "./ProjectCards";
+import { Container, Row, Col } from "react-bootstrap";
 
 
 function Projects() {
@@ -12,12 +14,32 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-              <p style={{ color: "white" }}>
-                  This is a <span className="purple">work in progress</span>. Check back again.
-              </p>
+        <p style={{ color: "white" }}>
+          Here are a few projects I've worked on recently.
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={GenZ}
+              isBlog={false}
+              title="Gen Z Translator"
+              description="Javascript converter to convert Javascript code into Gen Z slangs. Made with basic HTML, CSS and JS"
+              ghLink="https://github.com/GabrielWoo/GenZTranslator"
+              demoLink="https://gabrielwoo.github.io/GenZTranslator/"
+            />
+          </Col>
 
-              <img src={ConstructionImg} alt="In-Progress" className="img-fluid" width="600" height="800" />
-        
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ConstructionImg}
+              isBlog={false}
+              title="More to Come"
+              description="Work in Progress."              
+            />
+          </Col>
+
+          
+        </Row>
       </Container>
     </Container>
   );
