@@ -26,7 +26,7 @@ function WorkTimeline() {
                 <Container className="home-content">
                     <Row>
                         
-                        <Timeline position="alternate">
+                        <Timeline>
                             <TimelineItem>
                                 <TimelineOppositeContent
                                     sx={{ m: 'auto 0' }}

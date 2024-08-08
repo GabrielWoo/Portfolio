@@ -1,9 +1,9 @@
 import React from "react";
 import Particle from "../Particle";
-import ConstructionImg from "../../Assets/inProgress.jpg";
 import GenZ from "../../Assets/GenZ.png"
 import ProjectCard from "./ProjectCards";
 import { Container, Row, Col } from "react-bootstrap";
+import laptopImg from "../../Assets/about.png";
 
 
 function Projects() {
@@ -31,7 +31,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ConstructionImg}
+              imgPath={laptopImg}
               isBlog={false}
               title="More to Come"
               description="Work in Progress."              
