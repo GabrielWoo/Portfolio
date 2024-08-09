@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4e558664.css",
-    "main.js": "/Portfolio/static/js/main.81fa2fc5.js",
+    "main.js": "/Portfolio/static/js/main.9ad2c48d.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
     "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/GabrielWoo_Resume.pdf": "/Portfolio/static/media/GabrielWoo_Resume.787471dba59dd2b32374.pdf",
+    "static/media/Kanban.jpg": "/Portfolio/static/media/Kanban.343cebb9ffdbeaae611f.jpg",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/GenZ.png": "/Portfolio/static/media/GenZ.1d5f0c049bfff2953d89.png",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/Portfolio/index.html",
     "main.4e558664.css.map": "/Portfolio/static/css/main.4e558664.css.map",
-    "main.81fa2fc5.js.map": "/Portfolio/static/js/main.81fa2fc5.js.map",
+    "main.9ad2c48d.js.map": "/Portfolio/static/js/main.9ad2c48d.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4e558664.css",
-    "static/js/main.81fa2fc5.js"
+    "static/js/main.9ad2c48d.js"
   ]
 }
