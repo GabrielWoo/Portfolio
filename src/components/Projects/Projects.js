@@ -5,8 +5,7 @@ import Kanban from "../../Assets/Kanban.jpg"
 import ProjectCard from "./ProjectCards";
 import { Container, Row, Col } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
-
-
+import lofiGirl from "../../Assets/lofi-girl.gif";
 
 function Projects() {
     return (
@@ -39,6 +38,17 @@ function Projects() {
                             description="Javascript converter to convert Javascript code into Gen Z slangs. Made with basic HTML, CSS and JS"
                             ghLink="https://github.com/GabrielWoo/GenZTranslator"
                             demoLink="https://gabrielwoo.github.io/GenZTranslator/"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={lofiGirl}
+                            isBlog={false}
+                            title="Cozy Corner"
+                            description="My cozy corner I retreat to whenevr I need to focus. Made with basic HTML, CSS and JS"
+                            ghLink="https://github.com/GabrielWoo/CozyCorner"
+                            demoLink="https://gabrielwoo.github.io/CozyCorner/"
                         />
                     </Col>
 
