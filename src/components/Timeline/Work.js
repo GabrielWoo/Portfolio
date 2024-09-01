@@ -1,24 +1,22 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Type() {
+function Work() {
     return (
         <Typewriter
-            id="Main"
             options={{
                 strings: [
-                    "Software Developer",
-                    "Tech Enthusiast",
-                    "Long-Time Gamer",
-                    "Dog Person"
+                    "Eat();",
+                    "Sleep();",
+                    "Code();",
+                    "Repeat();"
                 ],
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
-                skipAddStyles: true,
-                
             }}
         />
-    )}
+    );
+}
 
-export default Type;
+export default Work;
