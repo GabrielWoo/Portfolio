@@ -46,7 +46,7 @@ function Projects() {
                             imgPath={lofiGirl}
                             isBlog={false}
                             title="Cozy Corner"
-                            description="My cozy corner I retreat to whenevr I need to focus. Made with basic HTML, CSS and JS"
+                            description="My quiet refuge where I retreat whenever I need to focus. Made with basic HTML, CSS and JS"
                             ghLink="https://github.com/GabrielWoo/CozyCorner"
                             demoLink="https://gabrielwoo.github.io/CozyCorner/"
                         />
