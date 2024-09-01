@@ -7,17 +7,15 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
-
-import {
-    SiClockify,
-} from "react-icons/si";
-
-import { FaBaby, FaWrench, FaSchool, FaGraduationCap, FaCode } from "react-icons/fa";
+import {SiClockify} from "react-icons/si";
+import { FaBaby, FaWrench, FaSchool, FaGraduationCap, FaCode,  } from "react-icons/fa";
 import Typography from '@mui/material/Typography';
+import Work from "./Work";
 
 function WorkTimeline() {
     let date = new Date();
     let year = date.getFullYear();
+
 
     return (
         <section>
@@ -124,7 +122,7 @@ function WorkTimeline() {
                                     variant="body2"
                                     color="White"
                                 >
-                                    2023 - {year}
+                                    2023 - Present
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                     <TimelineConnector />
@@ -137,7 +135,8 @@ function WorkTimeline() {
                                     <Typography variant="h6" component="span">
                                         Accenture - Software Developer
                                     </Typography>
-                                    <Typography>Work Work Work</Typography>
+                                    <Typography><Work/>                                   
+                                    </Typography>
                                 </TimelineContent>
                             </TimelineItem>
 
@@ -158,9 +157,9 @@ function WorkTimeline() {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <Typography variant="h6" component="span">
-                                        ???
+                                        Present
                                     </Typography>
-                                    <Typography>More to come?</Typography>
+                                    <Typography>TODO</Typography>
                                 </TimelineContent>
                             </TimelineItem>
                         </Timeline>

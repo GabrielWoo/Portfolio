@@ -1,6 +1,6 @@
 import React from "react";
 import Particle from "../Particle";
-import GenZ from "../../Assets/GenZ.png"
+import GenZ from "../../Assets/GenZ_1.jpg";
 import Kanban from "../../Assets/Kanban.jpg"
 import ProjectCard from "./ProjectCards";
 import { Container, Row, Col } from "react-bootstrap";
