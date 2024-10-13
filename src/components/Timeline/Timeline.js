@@ -10,13 +10,8 @@ import Particle from "../Particle";
 import {SiClockify} from "react-icons/si";
 import { FaBaby, FaWrench, FaSchool, FaGraduationCap, FaCode,  } from "react-icons/fa";
 import Typography from '@mui/material/Typography';
-import Work from "./Work";
 
 function WorkTimeline() {
-    let date = new Date();
-    let year = date.getFullYear();
-
-
     return (
         <section>
             <Container fluid className="home-section" id="home">
@@ -68,7 +63,7 @@ function WorkTimeline() {
                                     <Typography variant="h6" component="span">
                                         Accenture - Internship
                                     </Typography>
-                                    <Typography>Developed small features (Announcement banner, what's new pop up etc)</Typography>
+                                    <Typography>Assisted to develop small features (Announcement banner, what's new pop up etc) + other misc activites</Typography>
                                 </TimelineContent>
                             </TimelineItem>
                             <TimelineItem>
@@ -88,7 +83,7 @@ function WorkTimeline() {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <Typography variant="h6" component="span">
-                                       University
+                                       Graduation
                                     </Typography>
                                     <Typography>Got my CS Degree | 🎓</Typography>
                                 </TimelineContent>
@@ -122,7 +117,7 @@ function WorkTimeline() {
                                     variant="body2"
                                     color="White"
                                 >
-                                    2023 - Present
+                                  Current
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                     <TimelineConnector />
@@ -135,7 +130,8 @@ function WorkTimeline() {
                                     <Typography variant="h6" component="span">
                                         Accenture - Software Developer
                                     </Typography>
-                                    <Typography><Work/>                                   
+                                    <Typography>
+                                    Eat(); &nbsp; Sleep(); &nbsp; Code();
                                     </Typography>
                                 </TimelineContent>
                             </TimelineItem>
@@ -146,7 +142,7 @@ function WorkTimeline() {
                                     align="right"
                                     variant="body2"
                                     color="white"
-                                >{year}
+                                >Future
                                 </TimelineOppositeContent>
                                 <TimelineSeparator>
                                     <TimelineConnector />
@@ -157,7 +153,7 @@ function WorkTimeline() {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <Typography variant="h6" component="span">
-                                        Present
+                                        TODO
                                     </Typography>
                                     <Typography>TODO</Typography>
                                 </TimelineContent>
