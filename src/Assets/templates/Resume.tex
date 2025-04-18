@@ -1,0 +1,203 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Gabriel Woo} \\ \vspace{1pt}
+    \small 9859 1977 $|$ \href{mailto:gabriel.woo97@gmail.com}{\underline{gabriel.woo97@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/gabrielwoo1}{\underline{linkedin.com/in/gabrielwoo1}} $|$
+    \href{https://github.com/GabrielWoo}{\underline{github.com/GabrielWoo}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Singapore Institute of Technology / University of Glassgow }{}
+      {Bachelor of Science with Honors in Computer Science}{Sep. 2019 -- Aug 2022}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Business Architecture Senior Analyst}{June 2024 -- Present}
+      {Accenture}{}
+      \resumeItemListStart
+        \resumeItem{Assisted in developing a full-stack web application using React Js and Java Springboot, utilized Podman for deployment and AWS for hosting and log monitoring}
+        
+        \resumeItem{Tasked to resolve production issues on a live full-stack web application using React Js. Managed issues using Jira and improved error handling capabilities for future ease of debugging}
+        
+        \resumeItem{Involved in the development of a POC system using React Js and completed the POC within x weeks}
+
+        \resumeItem{Created multiple API endpoints for external systems to use. Developed new features and debugged existing issues using Pega}
+    
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Business Architecture Analyst}{Sep. 2022 -- May 2024}
+      {Accenture}{}
+      \resumeItemListStart
+        \resumeItem{Assisted in the development of a full-stack web application using Vue Js and .Net, utilized Azure for hosting and Gitlab pipelines for deployment. Involved in resolving issues that were found after system go-live}
+        
+        \resumeItem{Involved in the enhancement of a Word Document Macro plugin that could assist in a digital statement taking process using VBA}
+        
+        \resumeItem{Implemented system enhancements to consume payloads from external systems using MQ and SFTP in Pega }
+        
+        \resumeItem{Aided to improve system performance by identifying slow queries either updating said queries on Pega or via creation of indexes for SQL}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Intern}{Sep. 2021 -- April 2022}
+      {Accenture}{}
+      \resumeItemListStart
+        \resumeItem{Supported multiple training sessions that run through different use case functions developed for the system.}
+        
+        \resumeItem{Developed training materials using Powerpoint and created multiple interactive simulation slides via an application simulator}
+        
+        \resumeItem{Developed system enhancements to improve Quality of Life for users such as a feature highlights popup and a system announcement banner.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Portfolio} $|$ \emph{https://gabrielwoo.github.io/Portfolio/}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Web Application using React Js to showcase current and past projects}
+          \resumeItemListEnd
+      
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C Sharp, Java, Python, Javascript, HTML/CSS, SQL} \\
+     \textbf{Frameworks}{: .Net, Springboot, Flask, React / Vue } \\
+     \textbf{Developer Tools}{: Git, Docker, Jira, Kubernetes, VS Code, Visual Studio, IntelliJ} \\
+     \textbf{Low-Code Software}{: Pega}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
