@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCards";
 import { Container, Row, Col } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
 import lofiGirl from "../../Assets/lofi-girl.gif";
+import covid from "../../Assets/covid.gif"
 
 function Projects() {
     return (
@@ -52,7 +53,18 @@ function Projects() {
                         />
                     </Col>
 
-                    
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={covid}
+                            isBlog={false}
+                            title="Covid Dashboard (2020 - 2022)"
+                            description="A COVID dashboard meant to show how the different countries handled the pandemic from 2020 - 2022"
+                            ghLink="https://github.com/GabrielBeepBoop/CSC3007-project-codes"
+                            demoLink="https://gabrielbeepboop.github.io/CSC3007-project-codes/"
+                        />
+                    </Col>
+
+
 
                     <Col md={4} className="project-card">
                         <ProjectCard
