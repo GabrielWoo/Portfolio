@@ -28,14 +28,14 @@ function ResumeNew() {
             style={{ maxWidth: "300px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;View Full Resume
           </Button>
               </Row>
 
               <br />
               <Row style={{ justifyContent: "center", position: "relative" }}>
                   <p style={{ color: "white" }}>
-                      This is just a <span className="purple">preview</span>, click download to see the full resume
+                      This is just a <span className="purple">preview</span>, click on the button above to see the full resume
                   </p>
               </Row>
 
@@ -43,18 +43,6 @@ function ResumeNew() {
           <Document file={pdf} className="d-flex justify-content-center">
                       <Page pageNumber={1}  />
           </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-                      &nbsp;Download Resume
-          </Button>
         </Row>
       </Container>
     </div>
