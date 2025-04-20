@@ -9,56 +9,44 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [ width,setWidth] = useState(1200);
+    const [, setWidth] = useState(1200);
 
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
+    useEffect(() => {
+        setWidth(window.innerWidth);
+    }, []);
 
-  return (
-    <div>
-      <Container fluid className="resume-section">
-              <Particle />
-        
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "300px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-              </Row>
+    return (
+        <div>
+            <Container fluid className="resume-section">
+                <Particle />
 
-              <br />
-              <Row style={{ justifyContent: "center", position: "relative" }}>
-                  <p style={{ color: "white" }}>
-                      This is just a <span className="purple">preview</span>, click download to see the full resume
-                  </p>
-              </Row>
+                <Row style={{ justifyContent: "center", position: "relative" }}>
+                    <Button
+                        variant="primary"
+                        href={pdf}
+                        target="_blank"
+                        style={{ maxWidth: "300px" }}
+                    >
+                        <AiOutlineDownload />
+                        &nbsp;View Full Resume
+                    </Button>
+                </Row>
 
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-                      <Page pageNumber={1}  />
-          </Document>
-        </Row>
+                <br />
+                <Row style={{ justifyContent: "center", position: "relative" }}>
+                    <p style={{ color: "white" }}>
+                        This is just a <span className="purple">preview</span>, click on the button above to see the full resume
+                    </p>
+                </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-                      &nbsp;Download Resume
-          </Button>
-        </Row>
-      </Container>
-    </div>
-  );
+                <Row className="resume">
+                    <Document file={pdf} className="d-flex justify-content-center">
+                        <Page pageNumber={1} />
+                    </Document>
+                </Row>
+            </Container>
+        </div>
+    );
 }
 
 export default ResumeNew;
