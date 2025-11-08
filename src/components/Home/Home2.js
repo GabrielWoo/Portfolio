@@ -28,7 +28,7 @@ function Home2() {
                             <br />
                             I enjoy building interesting &nbsp;
                             <i>
-                                <b className="purple">features and functions </b> and
+                                <b className="purple">applications / tools </b> and
                                 also solving {" "}
                                 <span className="purple">
                                     challenges
