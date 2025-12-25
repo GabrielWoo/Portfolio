@@ -1,4 +1,4 @@
-﻿﻿import Timeline from '@mui/lab/Timeline';
+﻿import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
@@ -153,9 +153,9 @@ function WorkTimeline() {
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <Typography variant="h6" component="span">
-                                        TODO
+                                        In Progress
                                     </Typography>
-                                    <Typography>TODO</Typography>
+                                    <Typography></Typography>
                                 </TimelineContent>
                             </TimelineItem>
                         </Timeline>

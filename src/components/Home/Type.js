@@ -10,7 +10,9 @@ function Type() {
                     "Software Developer",
                     "Tech Enthusiast",
                     "Long-Time Gamer",
-                    "Dog Person"
+                    "Dog Parent",
+                    "Night Owl",
+                    "Meme Collector"
                 ],
                 autoStart: true,
                 loop: true,
