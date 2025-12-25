@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import myImg2 from "../../Assets/avatar2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -22,7 +21,7 @@ function Home2() {
                             <br />
                             <br />I am fluent in classics like
                             <i>
-                                <b className="purple"> C#, Java and Javascript.</b>
+                                <b className="purple"> C# and Javascript.</b>
                             </i>
                             <br />
                             <br />
