@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 
 import {
     DiJavascript1,
@@ -10,7 +9,7 @@ import {
     DiJava,
     DiAngularSimple,
 } from "react-icons/di";
-import { GiPegasus } from "react-icons/gi";
+import { GiPegasus, GiCubes } from "react-icons/gi";
 import { SiCsharp } from 'react-icons/si';
 
 import { FaVuejs } from "react-icons/fa6";
@@ -49,6 +48,10 @@ function Techstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiJava />
                 <h5>Java</h5>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <GiCubes />
+                <h5>VBA</h5>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <GiPegasus />

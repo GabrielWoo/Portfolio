@@ -7,7 +7,9 @@ import {
     SiAzurepipelines,
     SiAmazonaws,
     SiRedis,
-    SiPostgresql
+    SiPostgresql,
+    SiKubernetes,
+    SiDocker,
 } from "react-icons/si";
 import { FaGlobe } from "react-icons/fa";
 
@@ -28,6 +30,14 @@ function Toolstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <DiGit />
                 <h5>Git</h5>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiKubernetes />
+                <h5>Kubernetes</h5>
+            </Col>
+            <Col xs={4} md={2} className="tech-icons">
+                <SiDocker />
+                <h5>Docker</h5>
             </Col>
             <Col xs={4} md={2} className="tech-icons">
                 <SiPostman />
