@@ -1,76 +1,104 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-    SiVisualstudiocode,
-    SiPostman,
-    SiAzuredevops,
-    SiAzurepipelines,
-    SiAmazonaws,
-    SiRedis,
-    SiPostgresql,
-    SiKubernetes,
-    SiDocker,
-} from "react-icons/si";
-import { FaGlobe } from "react-icons/fa";
 
+import VSCodeLogo from '../../Assets/Icons/Tools/VSCode.svg';
+import GitLogo from '../../Assets/Icons/Tools/Git.svg';
+import KubernetesLogo from '../../Assets/Icons/Tools/Kubernetes.svg';
+import DockerLogo from '../../Assets/Icons/Tools/Docker.svg';
+import PostmanLogo from '../../Assets/Icons/Tools/Postman.svg';
+import AzureDevOpsLogo from '../../Assets/Icons/Tools/AzureDevOps.svg';
+import AzurePipelinesLogo from '../../Assets/Icons/Tools/AzurePipelines.svg';
+import AWSLogo from '../../Assets/Icons/Tools/AWS.svg';
+import RedisLogo from '../../Assets/Icons/Tools/Redis.svg';
+import SQLLogo from '../../Assets/Icons/Tools/SQL.svg';
+import CosmosDBLogo from '../../Assets/Icons/Tools/AzureCosmos.svg';
+import ChatGPTLogo from '../../Assets/Icons/Tools/ChatGPT.svg';
+import ChromeLogo from '../../Assets/Icons/Tools/Chrome.svg';
+import IntelliJLogo from '../../Assets/Icons/Tools/IntelliJ.svg';
+import PegaSystemsLogo from '../../Assets/Icons/Tools/Pega.svg';
 
-import {
-    DiGit
-} from "react-icons/di";
-import { RiOpenaiFill } from "react-icons/ri";
 
 
 function Toolstack() {
+    var iconHeight = 20;
+    var iconWidth = 20;
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <SiVisualstudiocode />
-                <h5>Visual Studio Code</h5>
+                <img src={VSCodeLogo} alt="VS Code Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Visual Studio Code</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiGit />
-                <h5>Git</h5>
+                <img src={GitLogo} alt="Git Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Git</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiKubernetes />
-                <h5>Kubernetes</h5>
+                <img src={KubernetesLogo} alt="Kubernetes Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Kubernetes</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiDocker />
-                <h5>Docker</h5>
+                <img src={DockerLogo} alt="Docker Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Docker</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiPostman />
-                <h5>Postman</h5>
+                <img src={PostmanLogo} alt="Postman Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Postman</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiAzuredevops />
-                <h5>Azure Devops</h5>
+                <img src={AzureDevOpsLogo} alt="AzureDevOps Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Azure Dev Ops</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiAzurepipelines />
-                <h5>Azure Pipelines</h5>
+                <img src={AzurePipelinesLogo} alt="Azure Pipelines Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Azure Pipelines</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiAmazonaws />
-                <h5>AWS</h5>
+                <img src={AWSLogo} alt="AWS Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">AWS</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiRedis />
-                <h5>Redis</h5>
+                <img src={RedisLogo} alt="Redis Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Redis</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <SiPostgresql />
-                <h5>SQL Workbench</h5>
+                <img src={SQLLogo} alt="SQL Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">SQL</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <FaGlobe />
-                <h5>Cosmos DB</h5>
+                <img src={CosmosDBLogo} alt="Azure Cosmos Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Cosmos DB</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <RiOpenaiFill />
-                <h5>Chat GPT</h5>
+                <img src={ChatGPTLogo} alt="ChatGPT Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">ChatGPT</div>
             </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={IntelliJLogo} alt="IntelliJ Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">IntelliJ</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={ChromeLogo} alt="Chrome Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Chrome</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={PegaSystemsLogo} alt="Pega Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Pega Systems</div>
+            </Col>
+
         </Row>
     );
 }
