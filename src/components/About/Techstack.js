@@ -1,62 +1,60 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-
-import {
-    DiJavascript1,
-    DiReact,
-    DiNodejs,
-    DiPython,    
-    DiJava,
-    DiAngularSimple,
-} from "react-icons/di";
-import { GiPegasus, GiCubes } from "react-icons/gi";
-import { SiCsharp } from 'react-icons/si';
-
-import { FaVuejs } from "react-icons/fa6";
+import CSharpLogo from '../../Assets/Icons/Languages/CSharp.svg';
+import NodeJsLogo from '../../Assets/Icons/Languages/NodeJS.svg';
+import ReactLogo from '../../Assets/Icons/Languages/ReactJS.svg';
+import VueLogo from '../../Assets/Icons/Languages/VueJS.svg';
+import AngularLogo from '../../Assets/Icons/Languages/AngularJS.svg';
+import PythonLogo from '../../Assets/Icons/Languages/Python.svg';
+import JavaLogo from '../../Assets/Icons/Languages/Java.svg';
+import VBALogo from '../../Assets/Icons/Languages/VBA.svg';
 
 function Techstack() {
+    var iconHeight = 20;
+    var iconWidth = 20;
+
     return (
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
-                <SiCsharp />
-                <h5>C#</h5>
+                <img src={CSharpLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">C++</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiJavascript1 />
-                <h5>JavaScript</h5>
+                <img src={NodeJsLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Node Js</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiNodejs />
-                <h5>Node JS</h5>
+                <img src={ReactLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">React Js</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiReact />
-                <h5>React JS</h5>
+                <img src={VueLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Vue Js</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <FaVuejs />
-                <h5>Vue JS</h5>
+                <img src={AngularLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Angular Js</div>
             </Col>
+            
             <Col xs={4} md={2} className="tech-icons">
-                <DiAngularSimple />
-                <h5>Angular JS</h5>
-            </Col>            
-            <Col xs={4} md={2} className="tech-icons">
-                <DiPython />
-                <h5>Python</h5>
+                <img src={PythonLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Python</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <DiJava />
-                <h5>Java</h5>
+                <img src={JavaLogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Java</div>
             </Col>
+
             <Col xs={4} md={2} className="tech-icons">
-                <GiCubes />
-                <h5>VBA</h5>
+                <img src={VBALogo} alt="C#" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">VBA</div>
             </Col>
-            <Col xs={4} md={2} className="tech-icons">
-                <GiPegasus />
-                <h5>Pega</h5>
-            </Col>
+            
         </Row>
     );
 }

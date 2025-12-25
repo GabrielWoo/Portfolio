@@ -11,8 +11,6 @@ function AboutCard() {
                         Hi Everyone, I am <span className="purple">Gabriel Woo </span>
                         from <span className="purple">Singapore,🇸🇬</span>
                         <br />
-                        I'm currently employed as a Software Developer at Accenture.
-                        <br />
                         I have a degree in Computer Science from Singapore Institute of Technology / University of Glassgow.
                         <br />
                         <br />
@@ -20,16 +18,16 @@ function AboutCard() {
                     </p>
                     <ul>
                         <li className="about-activity">
-                            <ImPointRight /> Playing Games
+                            <ImPointRight /> Playing Games 🎮
                         </li>
                         <li className="about-activity">
-                            <ImPointRight /> Watching Shows
+                            <ImPointRight /> Watching Shows 📺
                         </li>
                         <li className="about-activity">
-                            <ImPointRight /> Travelling
+                            <ImPointRight /> Travelling ✈️
                         </li>
                         <li className="about-activity">
-                            <ImPointRight /> Solving Puzzles
+                            <ImPointRight /> Solving Puzzles 🧩
                         </li>
                     </ul>
 

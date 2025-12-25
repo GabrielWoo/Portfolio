@@ -16,26 +16,24 @@ function Home2() {
                         <h1 style={{ fontSize: "2.6em" }}>
                             Let me <span className="purple"> introduce </span> myself
                         </h1>
-                        <p className="home-about-body">
-                            I fell in love with programming and I am decent at it, I think... 🤷‍♂️
-                            <br />
-                            <br />I am fluent in classics like
-                            <i>
-                                <b className="purple"> C# and Javascript.</b>
-                            </i>
-                            <br />
-                            <br />
-                            I enjoy building interesting &nbsp;
-                            <i>
-                                <b className="purple">applications / tools </b> and
-                                also solving {" "}
-                                <span className="purple">
-                                    challenges
-                                </span>
-                            </i>
-                            <br />
-                            <br />
-                        </p>
+                            <p className="home-about-body">
+                            I’m a Software Engineer who loves transforming ideas into
+                            reliable, scalable products and also solving challenges whenever possible.
+                            I take pride in turning ideas into reliable, scalable software and constantly push myself to learn new technologies.
+                            Beyond coding, I enjoy collaborating, sharing knowledge, and tackling the next big challenge that comes my way.
+                                <br />
+                                <br />
+                                I’m proficient in
+                                <i>
+                                    <b className="purple">
+                                        {" "}
+                                        Javascript and C#{" "}
+                                    </b>
+                                </i>
+                                — and I enjoy learning new things
+                                <br />
+                                <br />
+                            </p>
                     </Col>
                     <Col md={4} className="myAvtar">
                         <Tilt>
