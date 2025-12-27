@@ -1,12 +1,12 @@
 import React from "react";
 import Particle from "../Particle";
-import GenZ from "../../Assets/GenZ_1.jpg";
-import Kanban from "../../Assets/Kanban.jpg"
+import GenZ from "../../Assets/GenZ_3.gif";
+import Kanban from "../../Assets/Kanban_2.gif"
 import ProjectCard from "./ProjectCards";
 import { Container, Row, Col } from "react-bootstrap";
-import laptopImg from "../../Assets/about.png";
 import lofiGirl from "../../Assets/lofi-girl.gif";
 import covid from "../../Assets/covid.gif"
+import wordle from "../../Assets/Wordle.gif"
 
 function Projects() {
     return (
@@ -20,6 +20,17 @@ function Projects() {
                     Here are a few projects I've worked on recently.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={wordle}
+                            isBlog={false}
+                            title="Wordle Solver"
+                            description="An interactive site to help with Wordle. Built using React Ts"
+                            ghLink="https://github.com/GabrielWoo/wordle-react-clone-solver"
+                            demoLink="https://gabrielwoo.github.io/wordle-react-clone-solver/"
+                        />
+                    </Col>
+
                     <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={Kanban}
@@ -66,14 +77,7 @@ function Projects() {
 
                     
 
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={laptopImg}
-                            isBlog={false}
-                            title="More to Come"
-                            description="Work in Progress."
-                        />
-                    </Col>
+                    
 
 
                 </Row>
