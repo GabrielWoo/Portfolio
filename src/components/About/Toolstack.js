@@ -5,6 +5,10 @@ import VSCodeLogo from '../../Assets/Icons/Tools/VSCode.svg';
 import GitLogo from '../../Assets/Icons/Tools/Git.svg';
 import KubernetesLogo from '../../Assets/Icons/Tools/Kubernetes.svg';
 import DockerLogo from '../../Assets/Icons/Tools/Docker.svg';
+import ElasticSearchLogo from '../../Assets/Icons/Tools/ElasticSearch.svg';
+import LogstashLogo from '../../Assets/Icons/Tools/Logstash.svg';
+import KibanaLogo from '../../Assets/Icons/Tools/Kibana.svg';
+import DataikuLogo from '../../Assets/Icons/Tools/Dataiku.svg';
 import PostmanLogo from '../../Assets/Icons/Tools/Postman.svg';
 import AzureDevOpsLogo from '../../Assets/Icons/Tools/AzureDevOps.svg';
 import AzurePipelinesLogo from '../../Assets/Icons/Tools/AzurePipelines.svg';
@@ -42,6 +46,26 @@ function Toolstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <img src={DockerLogo} alt="Docker Logo" width={iconWidth} height={iconHeight} />
                 <div className="tech-icons-text">Docker</div>
+            </Col>
+
+             <Col xs={4} md={2} className="tech-icons">
+                <img src={ElasticSearchLogo} alt="ElasticSearch Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Elasticsearch</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={LogstashLogo} alt="Logstash Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Logstash</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={KibanaLogo} alt="Kibana Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Kibana</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={DataikuLogo} alt="Dataiku Logo" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Dataiku</div>
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">
