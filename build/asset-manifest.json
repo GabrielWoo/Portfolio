@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.84a6aabb.css",
-    "main.js": "/Portfolio/static/js/main.166487a4.js",
+    "main.js": "/Portfolio/static/js/main.e5262526.js",
     "static/js/415.4d6acbeb.chunk.js": "/Portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/covid.gif": "/Portfolio/static/media/covid.273aa521da334874d8ea.gif",
@@ -22,10 +22,13 @@
     "static/media/AzureCosmos.svg": "/Portfolio/static/media/AzureCosmos.1464b59d0fc3e8f27f98200205565841.svg",
     "static/media/CSharp.svg": "/Portfolio/static/media/CSharp.e2c0510d2b743a87e7621b703ba07906.svg",
     "static/media/AWS.svg": "/Portfolio/static/media/AWS.cc38dbe9487d55943d42132de41bbf53.svg",
+    "static/media/Ruby.svg": "/Portfolio/static/media/Ruby.a3888c77a3fc780108646fe3c626e4df.svg",
     "static/media/Redis.svg": "/Portfolio/static/media/Redis.2df4bf052b7ae5860e74600c320b3423.svg",
     "static/media/AzurePipelines.svg": "/Portfolio/static/media/AzurePipelines.5117ed9f1084c0aecf0cf1cf1cf9ccca.svg",
     "static/media/VBA.svg": "/Portfolio/static/media/VBA.3eaa9c2fb7961c124239b3d1751d82a4.svg",
+    "static/media/ElasticSearch.svg": "/Portfolio/static/media/ElasticSearch.20b87fc83327e071c11c2302c9f80b21.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "static/media/CPlusPlus.svg": "/Portfolio/static/media/CPlusPlus.2441702dffa95ca3c92c20816e386640.svg",
     "static/media/Python.svg": "/Portfolio/static/media/Python.a3234e7b1423b66cd5dbe9d2a3a17c6d.svg",
     "static/media/Chrome.svg": "/Portfolio/static/media/Chrome.21d95024f4db641ae2edf465c00c4a0c.svg",
     "static/media/Pega.svg": "/Portfolio/static/media/Pega.9c44f5de44515438c6f2aae1bad8ee99.svg",
@@ -35,15 +38,18 @@
     "static/media/Git.svg": "/Portfolio/static/media/Git.29ee81f3816dc8c467d2fe7c26ba1f4c.svg",
     "static/media/AzureDevOps.svg": "/Portfolio/static/media/AzureDevOps.41fa60ddfcf605c6cc037ba1500924a4.svg",
     "static/media/AngularJS.svg": "/Portfolio/static/media/AngularJS.01cdba1feae0fb751b37342737925d99.svg",
+    "static/media/Kibana.svg": "/Portfolio/static/media/Kibana.d7cfeda9a1660cfad31fd1b52251a9ee.svg",
+    "static/media/Logstash.svg": "/Portfolio/static/media/Logstash.c914b10e1d93705ae9ffe87f6183a415.svg",
+    "static/media/Dataiku.svg": "/Portfolio/static/media/Dataiku.2bb406586cbd367dabc60bf8a86a87cc.svg",
     "static/media/VueJS.svg": "/Portfolio/static/media/VueJS.f1fd23be1db9361fbcd81511fe862b08.svg",
     "static/media/ReactJS.svg": "/Portfolio/static/media/ReactJS.928f956d9c8ebcffb98a8e917154a81a.svg",
     "main.84a6aabb.css.map": "/Portfolio/static/css/main.84a6aabb.css.map",
-    "main.166487a4.js.map": "/Portfolio/static/js/main.166487a4.js.map",
+    "main.e5262526.js.map": "/Portfolio/static/js/main.e5262526.js.map",
     "415.4d6acbeb.chunk.js.map": "/Portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84a6aabb.css",
-    "static/js/main.166487a4.js"
+    "static/js/main.e5262526.js"
   ]
 }
