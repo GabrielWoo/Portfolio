@@ -8,6 +8,8 @@ import AngularLogo from '../../Assets/Icons/Languages/AngularJS.svg';
 import PythonLogo from '../../Assets/Icons/Languages/Python.svg';
 import JavaLogo from '../../Assets/Icons/Languages/Java.svg';
 import VBALogo from '../../Assets/Icons/Languages/VBA.svg';
+import CPlusPlusLogo from '../../Assets/Icons/Languages/CPlusPlus.svg';
+import RubyLogo from '../../Assets/Icons/Languages/Ruby.svg';
 
 function Techstack() {
     var iconHeight = 20;
@@ -17,7 +19,7 @@ function Techstack() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
             <Col xs={4} md={2} className="tech-icons">
                 <img src={CSharpLogo} alt="C#" width={iconWidth} height={iconHeight} />
-                <div className="tech-icons-text">C++</div>
+                <div className="tech-icons-text">C#</div>
             </Col>
 
             <Col xs={4} md={2} className="tech-icons">
@@ -53,6 +55,16 @@ function Techstack() {
             <Col xs={4} md={2} className="tech-icons">
                 <img src={VBALogo} alt="VBA" width={iconWidth} height={iconHeight} />
                 <div className="tech-icons-text">VBA</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={CPlusPlusLogo} alt="C++" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">C++</div>
+            </Col>
+
+            <Col xs={4} md={2} className="tech-icons">
+                <img src={RubyLogo} alt="Ruby" width={iconWidth} height={iconHeight} />
+                <div className="tech-icons-text">Ruby</div>
             </Col>
             
         </Row>
